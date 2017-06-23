@@ -1,0 +1,11 @@
+{
+    "commands": {
+        "Compile": "cd ~/workspace/; ./gradlew assembleDebug",
+        "Run Emulator": "cd ~/workspace/ ; /home/codio/Android/Sdk/emulator/emulator -avd codio2 -no-accel -gpu off",
+        "Run app in emulator": "cd ~/workspace/; ./gradlew installDebug"
+    },
+    
+    "preview": {
+        "Emulator preview": "https://{{domain3000}}/"
+    }
+}
